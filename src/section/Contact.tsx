@@ -118,6 +118,11 @@ setIsSending(false)
 <motion.div
   className="relative isolate overflow-hidden w-full md:w-[700px] mx-auto flex justify-center rounded-full bg-purple-400 py-3 px-6 text-white mt-10"
 >
+  {status && (
+  <p className="text-center mt-4 font-semibold dark:text-white">
+    {status}
+  </p>
+)}
   <button
     type="submit"
     disabled={isSending}
