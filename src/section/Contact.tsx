@@ -34,17 +34,18 @@ setIsSending(false)
 }
     return(
         
-             <section id="contact" className="dark:bg-gradient-to-t dark:from-slate-950 dark:via-slate-900 dark:to-blue-950 bg-slate-50
-               bg-linear-to-t from-blue-200 to-white-400  py-20 px-6 md:px-16">
+            <section
+  id="contact"
+  className="w-full max-w-full px-4 sm:px-6 md:px-16 py-16 overflow-x-hidden"
+>
                <div>
-                <span className="inline-block rounded-full text-6xl font-bold text-purple-400 ml-30">
-                    Contact
-                </span>
-                
+         <span className="block text-center text-4xl md:text-6xl font-bold text-purple-400">
+  Contact
+</span>
                 <div >
    <form onSubmit={sendingMessage}                    
     >
-                      <div className=" flex flex-row justify-center gap-12 mt-30 ">
+     <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-12 mt-16 w-full">
                      <div className=" dark:bg-slate-900 dark:text-white  flex flex-col gap-4 w-full md:w-[400px]">
                         <input
                         type="text"

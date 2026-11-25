@@ -14,7 +14,7 @@ function About() {
             About Me
           </span>
 
-          <h1 className="dark:text-white text-5xl font-bold font-serif text-gray-700">
+          <h1 className="dark:text-white text-3xl md:text-5xl font-bold font-serif text-gray-700">
             Who I Am
           </h1>
 
@@ -30,7 +30,7 @@ function About() {
             I am motivated to apply my skills in cybersecurity
             and software development in real-world environments.
           </p>
-         <motion.span className="flex gap-6"
+         <motion.span className="flex flex-wrap gap-3 sm:gap-6"
         initial={{opacity: 0, y: -50}}
 whileInView={{opacity: 1, y:0}}
 viewport={{once: false}}

@@ -4,8 +4,7 @@ import Theme from "./Theme"
 function NavBar(){
     const [isOpen, setIsOpen] = useState(false)
 return(
-    <div className=" dark:bg-slate-900
-    fixed top-0 left-4 right-4 flex justify-between items-center p-3 bg-blue-100 rounded-2xl">
+    <div className="fixed top-0 left-2 right-2 z-50 w-auto max-w-full flex justify-between items-center p-3 bg-blue-100 dark:bg-slate-900 rounded-2xl">
     <h1 className="dark:text-white text-gray-700 text-4xl  font-bold">
         Sumeya Sabit
     </h1>
