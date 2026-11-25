@@ -34,9 +34,10 @@ setIsSending(false)
 }
     return(
         
-            <section
-  id="contact"
-  className="w-full max-w-full px-4 sm:px-6 md:px-16 py-16 overflow-x-hidden"
+          <section
+    id="contact"
+    className="min-h-screen scroll-mt-20 flex flex-col justify-center shadow-lg shadow-purple-500/30 py-3 px-6 w-full dark:bg-gradient-to-t
+     dark:from-slate-950 dark:via-slate-900 dark:to-blue-950 bg-slate-50 bg-linear-to-b from-blue-200 to-white"
 >
                <div>
          <span className="block text-center text-4xl md:text-6xl font-bold text-purple-400">
@@ -117,7 +118,7 @@ setIsSending(false)
                  </div>
                  
 <motion.div
-  className="relative isolate overflow-hidden w-full md:w-[700px] mx-auto flex justify-center rounded-full bg-purple-400 py-3 px-6 text-white mt-10"
+  className="relative isolate overflow-hidden w-full max-w-[700px] mx-auto flex justify-center rounded-full bg-purple-400 py-3 px-6 text-white mt-10"
 >
   {status && (
   <p className="text-center mt-4 font-semibold dark:text-white">

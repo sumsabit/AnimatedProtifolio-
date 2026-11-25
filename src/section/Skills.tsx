@@ -26,7 +26,9 @@ function Skills(){
         <>
         <section id="skills" className="dark:bg-gradient-to-t dark:from-slate-950 dark:via-slate-900 dark:to-blue-950
         min-h-screen px-6 md:px-12 bg-linear-to-t from-blue-200 to-white-400 lg:px-16 py-16 ">
-            <h1  className="inline-block rounded-full text-6xl font-bold text-purple-400 ml-30 mt-20 mb-20">Skills</h1>
+          <h1 className="block text-center text-4xl md:text-6xl font-bold text-purple-400 mt-20 mb-12">
+  Skills
+</h1>
          <div className="w-full h-[250px] flex justify-center items-center [perspective:1500px] overflow-hidden">
 
   <motion.div
