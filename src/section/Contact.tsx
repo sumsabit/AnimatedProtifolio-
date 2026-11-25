@@ -73,7 +73,7 @@ setIsSending(false)
                            className="rounded-2xl shadow-lg shadow-purple-500/30 py-3 px-6"
                          />
                     </div>
-                    <div className=" dark:text-white flex flex-col gap-4">
+                    <div className="hidden md:flex  dark:text-white flex flex-col gap-4">
                         <div className="flex gap-2">
                             <svg xmlns="http://www.w3.org/2000/svg"
                              width="36" height="36" viewBox="0 0 24 24"
